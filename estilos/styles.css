@@ -48,56 +48,24 @@
     color: black;
 }
 
+body nav .container-fluid .lang {
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    margin-right: 30px;
+    transition: 0.2s; }
+    body nav .container-fluid .lang:hover {
+      color: #818181; }
 
 
 /****SlideShow****/
-
-.slideshow-container {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    margin: 0 auto;
-}
-
-.mySlides {
-    display: none;
+.img-slideshow{
     width: 100%;
 }
-
-.mySlides img {
-    width: 1500px;
-}
-
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 24px;
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
-.prev {
-    left: 0;
-}
-
-.next {
-    right: 0;
-}
-
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-
 
 /****Catalogo****/
 
 .seccion{
-    margin: 50px 0;
+    margin: 80px 0;
 }
 
 .titulo{
