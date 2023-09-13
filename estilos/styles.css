@@ -183,4 +183,7 @@
     .prod img {
         width: 600px;
     }
+    .overlay button {
+        font-size: 60px;
+    }
 }
