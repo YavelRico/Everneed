@@ -149,7 +149,7 @@
     color: white;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .navbar-brand img{
         width: 1000px;
     }
