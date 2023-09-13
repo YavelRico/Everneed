@@ -171,6 +171,7 @@
     }
     .subtitulo {
         font-size: 45px;
+        border: 4px solid black;
     }
     .parrafo {
         margin: 0 10%;
@@ -185,5 +186,8 @@
     }
     .overlay button {
         font-size: 40px;
+    }
+    .titulo hr {
+        border-top: 4px solid black;
     }
 }
