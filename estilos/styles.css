@@ -149,9 +149,9 @@
     color: white;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 740px) {
     .navbar-brand img{
-        width: 400px;
+        width: 300px;
     }
     .nav-item {
         font-size: 30px;
