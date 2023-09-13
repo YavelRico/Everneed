@@ -12,6 +12,12 @@
     margin: 0 10px;
 }
 
+.navbar-toggler {
+    width: 70px;
+    height: 70px;
+}
+
+
 .nav-item {
     margin: 0px 10px;
     font-size: 20px;
