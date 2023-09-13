@@ -151,7 +151,7 @@
 
 @media (max-width: 1000px) {
     .navbar-brand img{
-        width: 1000px;
+        width: 400px;
     }
     .nav-item {
         font-size: 30px;
