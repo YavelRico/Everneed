@@ -298,4 +298,16 @@ footer .container{
         display: none;
     }
 
+    .col-md-6{
+        margin-left: 25%;
+        padding: 20px;
+    }
+
+    .text-center p{
+        font-size: 30px;
+    }
+
+    .text-center .fw-light{
+        font-size: 35px;
+    }
 }
