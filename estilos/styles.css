@@ -66,14 +66,14 @@
 
 /****Intro****/
 
-.intro{
-    margin: 800px 0;
-}
-
 /****Catalogo****/
 
 .seccion {
     margin: 80px 0;
+}
+
+.seccion a{
+    text-decoration: none;
 }
 
 .titulo {
@@ -105,6 +105,7 @@
     text-align: center;
     margin: 100px 30% 40px 30%;
     border: 2px solid black;
+    color: black;
 }
 
 .parrafo {
