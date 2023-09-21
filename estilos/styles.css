@@ -54,7 +54,7 @@
     color: black;
 }
 
-.dropdown-item{
+.dropdown-item {
     font-size: 20px;
     font-weight: 600;
 }
@@ -70,7 +70,7 @@
     margin: 80px 0;
 }
 
-.seccion a{
+.seccion a {
     text-decoration: none;
 }
 
@@ -168,60 +168,160 @@
 /****Contacto****/
 
 /****Footer****/
-.logoempresa{
+.logoempresa {
     width: 250px;
 }
 
-footer{
+footer {
     margin: 20px 10px;
     border: 3px solid black;
     border-radius: 10px;
 }
 
-.text{
+.text {
     font-size: 20px;
     color: black;
 }
 
-.textp{
+.textp {
     font-size: 18px;
     color: black;
 }
 
-.links{
+.links {
     font-size: 18px;
     color: black;
     text-decoration: none;
 }
 
-.btn-primary{
+.btn-primary {
     --bs-btn-bg: #fff !important;
     --bs-btn-border-color: #000 !important;
-    --bs-btn-color: #000 !important;    
+    --bs-btn-color: #000 !important;
     --bs-btn-font-size: 25px !important;
 }
 
-.textcopy{
+.textcopy {
     color: #000;
     font-size: 14px;
     border-top: #000 3px solid;
 }
 
-footer .container{
+footer .container {
     padding: 40px 0 !important;
 }
 
+/*CSS de Contacto*/
+a {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+a,
+a:hover {
+    text-decoration: none !important;
+}
+
+.content {
+    padding: 2rem 0;
+}
+
+.contact-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: black;
+    font-family: "Montserrat";
+}
+
+.contact-bio {
+    color: white;
+    font-family: "Montserrat";
+}
+
+.contact-link {
+    margin-top: 10px;
+}
+
+.contact-link a {
+    color: #96A0F0;
+    border: 1px solid #96A0F0;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+.contact-link a:hover {
+    color: white;
+    background-color: #96A0F0;
+    padding: 15px;
+}
+
+.form-control {
+    color: white;
+    border: 1px solid #96A0F0;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 0;
+    margin: 15px 0px;
+    border-radius: 10px;
+    background-color: #242c66;
+    transition: 0.5s;
+}
+
+.form-control:hover {
+    transform: scale(1.02);
+}
+
+.form-control:active,
+.form-control:focus {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #242c66;
+    background-color: white;
+    transform: scale(1.08);
+}
+
+.contact-button input {
+    background-color: #4956b9;
+    border: 1px solid #4956b9;
+    color: white;
+    font-family: "Montserrat";
+    margin-top: 20px;
+    transition: 0.5s;
+}
+
+.contact-button input:hover {
+    background-color: #96A0F0;
+    border: #96A0F0;
+    transform: scale(1.1);
+    color: #242c66;
+}
+
+.btn,
+.form-control {
+    height: 55px;
+}
+
+form.border-right {
+    padding-right: 6rem !important;
+}
+
+
 @media (max-width: 1000px) {
-    .navbar-brand img{
+    .navbar-brand img {
         width: 300px;
     }
+
     .nav-item {
         font-size: 30px;
     }
-    .dropdown-item{
+
+    .dropdown-item {
         font-size: 30px;
         font-weight: 600;
-    }    
+    }
+
     .img-slideshow {
         width: 100%;
     }
@@ -229,83 +329,91 @@ footer .container{
     .titulo {
         font-size: 55px;
     }
+
     .subtitulo {
         font-size: 40px;
         margin: 100px 20% 40px 20%;
         border: 3px solid black;
     }
+
     .parrafo {
         margin: 0 10%;
         font-size: 35px;
     }
+
     .productos {
         display: grid;
-        justify-content:space-around;
+        justify-content: space-around;
     }
+
     .prod img {
         width: 600px;
     }
+
     .overlay button {
         font-size: 40px;
     }
+
     .titulo hr {
         border-top: 4px solid black;
     }
 
-    .logoempresa{
+    .logoempresa {
         width: 150px;
     }
-    .text{
+
+    .text {
         font-size: 18px;
     }
-    
-    .textp{
+
+    .textp {
         font-size: 14px;
     }
-    
-    .links{
+
+    .links {
         font-size: 14px;
     }
-    .logoempresa{
+
+    .logoempresa {
         width: 250px;
     }
-    
-    footer{
+
+    footer {
         margin: 20px 10px;
         border: 3px solid black;
         border-radius: 10px;
     }
-    
-    .btn-primary{
+
+    .btn-primary {
         --bs-btn-bg: #fff !important;
         --bs-btn-border-color: #000 !important;
-        --bs-btn-color: #000 !important;    
+        --bs-btn-color: #000 !important;
         --bs-btn-font-size: 30px !important;
     }
-    
 
-    footer .container{
+
+    footer .container {
         padding: 30px 0 !important;
     }
-    
-    .col-md-4{
+
+    .col-md-4 {
         display: none;
     }
 
-    .col-md-2{
+    .col-md-2 {
         display: none;
     }
 
-    .col-md-6{
+    .col-md-6 {
         margin-left: 25%;
         padding: 20px;
     }
 
-    .text-center p{
+    .text-center p {
         font-size: 30px;
     }
 
-    .text-center .fw-light{
+    .text-center .fw-light {
         font-size: 35px;
     }
 }
