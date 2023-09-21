@@ -68,3 +68,22 @@ $(function () {
     contactForm();
 
 });
+
+
+//wpp
+function openRandomWhatsApp() {
+    // Generate a random number (0 or 1)
+    var randomNumber = Math.floor(Math.random() * 2);
+
+    // Define an array with the WhatsApp links
+    var whatsappLinks = [
+        "https://wa.me/5491134999347",
+        "https://wa.me/5491151069000"
+    ];
+
+    // Use the random number to select one of the WhatsApp links
+    var selectedLink = whatsappLinks[randomNumber];
+
+    // Open the selected WhatsApp link
+    window.open(selectedLink);
+}
