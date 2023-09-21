@@ -235,25 +235,12 @@ a:hover {
 }
 
 .contact-bio {
-    color: white;
+    color: black;
     font-family: "Montserrat";
 }
 
 .contact-link {
     margin-top: 10px;
-}
-
-.contact-link a {
-    color: #96A0F0;
-    border: 1px solid #96A0F0;
-    padding: 10px;
-    transition: 0.5s;
-}
-
-.contact-link a:hover {
-    color: white;
-    background-color: #96A0F0;
-    padding: 15px;
 }
 
 .form-control {
@@ -277,25 +264,29 @@ a:hover {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    color: #242c66;
+    color: #0ea0aa;
     background-color: white;
+    border-radius: 10px;
     transform: scale(1.08);
+}
+.contact-button{
+    border-radius: 10px;
 }
 
 .contact-button input {
-    background-color: #4956b9;
-    border: 1px solid #4956b9;
+    background-color: #0ea0aa;
+    border: 1px solid #0ea0aa;
     color: white;
     font-family: "Montserrat";
     margin-top: 20px;
+    border-radius: 10px;
     transition: 0.5s;
 }
 
 .contact-button input:hover {
-    background-color: #96A0F0;
-    border: #96A0F0;
-    transform: scale(1.1);
-    color: #242c66;
+    background-color: #000;
+    border: #000;
+    color: #fff;
 }
 
 .btn,
@@ -305,6 +296,25 @@ a:hover {
 
 form.border-right {
     padding-right: 6rem !important;
+}
+
+.bi-whatsapp{
+    color: #0ea0aa;
+    transition: 0.5s;
+}
+
+.col-lg-4 .bi-whatsapp:hover{
+    color: #fff;
+}
+
+.col-lg-4 a{
+    border: #0ea0aa 2px solid;
+    transition: 0.5s;
+}
+
+.col-lg-4 a:hover{
+    border: #000 2px solid;
+    background-color: #000;
 }
 
 
